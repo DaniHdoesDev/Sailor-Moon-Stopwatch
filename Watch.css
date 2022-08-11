@@ -1,3 +1,14 @@
-body{
-    background-image: url('');
+.body{
+    background-image: url('C:\Users\bjack857\Documents\GitHub\StopWatch\Sailor Moon Cityscape.jpg');
+}
+.button{
+    background-color:blueviolet;
+    float: left;
+    width: 250px;
+}
+.h1{
+    color: pink;
+}
+.h2{
+    color: palevioletred
 }
