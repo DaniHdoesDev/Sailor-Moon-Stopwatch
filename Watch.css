@@ -23,17 +23,6 @@ button:hover {
     background-color: rgb(255, 0, 234);
   }
 
-  @mixin transition {
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    }
-    @mixin corners ($radius) {
-    -moz-border-radius: $radius;
-    -webkit-border-radius: $radius;
-    border-radius: $radius; 
-    -khtml-border-radius: $radius; 
-    } 
 
 
 h1{
