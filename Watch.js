@@ -1,4 +1,4 @@
-window.onload = function () {
+
   
     let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
