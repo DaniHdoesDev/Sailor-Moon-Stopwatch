@@ -1,9 +1,9 @@
 body{
     background-color: black;
     background-image: url('Sailor Moon Cityscape.jpg');
-    height: 100%;
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
 }
 button{
     background-color:pink;
