@@ -25,9 +25,9 @@ resetBtn.addEventListener('click', function () {
     second = 0;
     count = 0;
     document.getElementById('hr').innerHTML = "00";
-    document.getElementById('min').innerHTML = "00";
-    document.getElementById('sec').innerHTML = "00";
-    document.getElementById('count').innerHTML = "00";
+    document.getElementById('min').innerHTML = ":00";
+    document.getElementById('sec').innerHTML = ":00";
+    document.getElementById('count').innerHTML = ":00";
 });
 
 
