@@ -3,21 +3,24 @@
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
 let resetBtn = document.getElementById('reset');
+
   
 let hour = 00;
 let minute = 00;
 let second = 00;
 let count = 00;
-  
+
+
+// Start Button  
 startBtn.addEventListener('click', function () {
     timer = true;
-    stopWatch();
-});
-  
+    stopWatch(); });
+
+// Stop Button 
 stopBtn.addEventListener('click', function () {
-    timer = false;
-});
-  
+    timer = false; });
+
+// Reset Button for the numerical elements  
 resetBtn.addEventListener('click', function () {
     timer = false;
     hour = 0;
@@ -30,15 +33,14 @@ resetBtn.addEventListener('click', function () {
     document.getElementById('count').innerHTML = ":00";
 });
 
-
+//
 function stopWatch() {
     if (timer) {
         count++;
-  
+        
         if (count == 100) {
             second++;
-            count = 0;
-        }
+            count = 0;}
   
         if (second == 60) {
             minute++;

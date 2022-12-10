@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-
+<!---CSS Information-->
 <link rel="stylesheet" href="Watch.css">
+<style>
+::-webkit-scrollbar {
+  width: 15px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(90, 26, 26); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#c0487a; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BE0854; }
+
+</style>
 </head>
+<!---Tab name-->
 <title> Sailor Moon Themed Stop Watch</title>
+
 </body>
-    <div class="container">
-      <div class="content">
-        <h3 class="text_shadows">Sailor Moon Stopwatch</h3>    
-      </div>
-    <div class = "content">
-      <h5 class="text_shadows">By the light of the moon, this will stop you!</h5>
+<!---Entire site-->
+  <div class="scrollbar">
+    <!---Start of letters and text shadows-->
+    <h3 class="text_shadows">Sailor Moon Stopwatch</h3>    
+    <img src=".github\workflows\Sailor Moon Brooch.png" alt="Sailor Moon Brooch" width="128" height="128"> 
+    <h5 class="text_shadows">By the light of the moon, this will stop you!</h5>
 
-    </div>
 
-<div class="content">   
-<div id="time">
-   
+    <!---Timer-->
+  <main id="time">
+    <!---Hour-->
     <span class="digit" id="hr">
       00</span>
-    <span class="star" ></span>
+    <!---Minute-->
     <span class="digit" id="min">
       :00</span>
-    <span class="txt"></span>
+    <!---Sceond-->
     <span class="digit" id="sec">
       :00</span>
-    <span class="txt"></span>
+    <!---Milliseconds-->
     <span class="digit" id="count">
       :00</span>
-      
-</div>
+  </main>
 
-</div>
-
-<section id="button">
+  <!---Start of letter-->
+  <section id="button">
+    <!---Start Button-->
     <button class="btn" id="start">
       Start</button>
+    <!---Stop Button--> 
     <button class="btn" id="stop">
       Stop</button>
+    <!---Reset Button-->  
     <button class="btn" id="reset">
       Reset</button>
-</section>
-
+  </section>
 </div>
+
+  <!---Javascript information-->
     <script src="Watch.js"></script>
 </body>
-
 
 </html>

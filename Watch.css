@@ -1,4 +1,4 @@
-
+/* Controls font, color and background for the entire project */
 body{
     background-color: black;
     background-image: url('Sailor Moon Cityscape.jpg');
@@ -13,10 +13,16 @@ body{
     text-align: center;
 }
 
+img{
+ height: 200%;
+ max-width: 200%
 
+}
+
+/* Changes the appearance and placement of the buttons */
 button{
     background-color:rgb(236, 127, 172);
-    color: rgb(60, 25, 139);
+    color: #3b188b;
     border-style: ridge;
     border-color: rgba(82, 82, 179, 0.747);
     padding:10px 10px;
@@ -25,21 +31,22 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;  
 }
+
+/* Controls the color scheme of the hover feature for the buttons */
 button:hover {
     background-color: #a32b8f;
     position: center;
     text-align: center;
   }
 
-
-
+/* Apperence and placement for headings */
 h3, h5{
-    color: rgb(230, 91, 149);
-    text-align: center;
-    font-size: calc(1rem + 5vw);
-    font-family: bungee, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-weight: 300;
-   text-transform: uppercase;
+  color: rgb(230, 91, 149);
+  text-align: center;
+  font-size: calc(1rem + 5vw);
+  font-family: bungee, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 
   text-shadow: 
   5px 5px 0px #c0487a, 
@@ -50,38 +57,14 @@ h3, h5{
 
 }
 
-
-
+/* Alters the appearance and font for the numerical portion */
 span{
-  color: rgb(192, 72, 122) ;
+  color: rgb(187, 14, 86) ;
   font-family: bungee, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 82px;
+  font-size: 75px;
 
 }
 
-
-.content {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-/*
-.text_shadows {
-  text-shadow: 
-   3px 3px (--color-secondary), 
-   6px 6px (--color-tertiary),
-    9px 9px(--color-quaternary), 
-    12px 12px (--color-quinary);
-  font-family: bungee, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: calc(1rem + 5vw);
-  text-align: center;
-  margin: 0;
-  
-  
-}
 
 
     
